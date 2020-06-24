@@ -1,7 +1,7 @@
-import { h, Fragment } from "preact";
-import { Logo } from './logo'
+import { h, Fragment, FunctionComponent } from "preact";
+import Logo from "./logo";
 
-export function App() {
+const App: FunctionComponent = () => {
   return (
     <Fragment>
       <Logo />
@@ -17,5 +17,7 @@ export function App() {
         </a>
       </p>
     </Fragment>
-  )
-}
+  );
+};
+
+export default App;
