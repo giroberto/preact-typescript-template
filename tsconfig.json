@@ -10,8 +10,6 @@
         "esnext"
       ],
       "importHelpers": true,
-      "declaration": true,
-      "sourceMap": true,
       "rootDir": "./src",
       "strict": true,
       "noUnusedLocals": true,
@@ -31,4 +29,3 @@
       "esModuleInterop": true
     }
   }
-  

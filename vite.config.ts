@@ -1,5 +1,5 @@
 // @ts-check
-const preactRefresh = require('@prefresh/vite')
+const preactRefresh = require("@prefresh/vite");
 
 /**
  * @type { import('vite').UserConfig }
@@ -7,10 +7,10 @@ const preactRefresh = require('@prefresh/vite')
 const config = {
   // With typescript we can't use the preact profile or it will complain about typings
   jsx: {
-    factory: 'h',
-    fragment: 'Fragment'
+    factory: "h",
+    fragment: "Fragment",
   },
-  plugins: [preactRefresh()]
-}
+  plugins: [preactRefresh()],
+};
 
-module.exports = config
+module.exports = config;
