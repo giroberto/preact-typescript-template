@@ -8,7 +8,7 @@ const App: FunctionComponent = () => {
       <p>Hello Vite + Preact!</p>
       <p>
         <a
-          class="link"
+          className="link"
           href="https://preactjs.com/"
           target="_blank"
           rel="noopener noreferrer"
