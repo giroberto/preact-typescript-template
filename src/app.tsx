@@ -1,7 +1,7 @@
-import { h, Fragment, FunctionComponent } from "preact";
+import React, { Fragment } from "react";
 import Logo from "./logo";
 
-const App: FunctionComponent = () => {
+const App:React.FC = () => {
   return (
     <Fragment>
       <Logo />
