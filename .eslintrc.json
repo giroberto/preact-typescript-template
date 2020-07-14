@@ -4,6 +4,8 @@
     "es2020": true
   },
   "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
@@ -19,7 +21,8 @@
   ],
   "settings": {
     "react": {
-      "pragma": "h"
+      "pragma": "React",
+      "version": "16.13"
     }
   },
   "rules": {}

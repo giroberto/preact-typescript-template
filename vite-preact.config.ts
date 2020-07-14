@@ -10,6 +10,10 @@ const configPreact = {
     factory: "h",
     fragment: "Fragment",
   },
+  alias: {
+    react: "preact/compat",
+    "react-dom": "preact/compat",
+  },
   plugins: [preactRefresh()],
 };
 

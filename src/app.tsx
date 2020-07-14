@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Logo from "./logo";
 
-const App:React.FC = () => {
+const App: React.FC = () => {
   return (
     <Fragment>
       <Logo />
