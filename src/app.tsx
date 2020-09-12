@@ -1,7 +1,7 @@
-import { h, Fragment, FunctionComponent } from "preact";
+import { h, Fragment, JSX } from "preact";
 import Logo from "./logo";
 
-const App: FunctionComponent = () => {
+const App = (): JSX.Element => {
   return (
     <Fragment>
       <Logo />
