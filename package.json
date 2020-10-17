@@ -1,6 +1,7 @@
 {
   "name": "preact-typescript-template",
   "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "dev-preact": "vite -c vite-preact.config.ts",

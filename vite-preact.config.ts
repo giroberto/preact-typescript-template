@@ -1,5 +1,5 @@
 // @ts-check
-const preactRefresh = require("@prefresh/vite");
+import preactRefresh from "@prefresh/vite";
 
 /**
  * @type { import('vite').UserConfig }
