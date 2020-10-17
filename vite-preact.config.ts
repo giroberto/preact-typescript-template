@@ -7,7 +7,6 @@ const preactRefresh = require("@prefresh/vite");
 const configPreact = {
   // With typescript we can't use the preact profile or it will complain about typings
   jsx: {
-    factory: "h",
     fragment: "Fragment",
   },
   alias: {
