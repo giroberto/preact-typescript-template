@@ -1,4 +1,4 @@
-import { h, Fragment, JSX } from "preact";
+import React, { Fragment } from "react";
 import Logo from "./logo";
 
 const App = (): JSX.Element => {

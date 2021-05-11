@@ -21,8 +21,8 @@
   ],
   "settings": {
     "react": {
-      "version": "16.13",
-      "pragma": "h"
+      "pragma": "React",
+      "version": "16.13"
     }
   },
   "rules": {}
